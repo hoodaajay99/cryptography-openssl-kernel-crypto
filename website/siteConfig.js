@@ -23,14 +23,14 @@ const users = [
 const siteConfig = {
   title: 'Tech Skillo', // Title for your website.
   tagline: 'Learn Cryptography',
-  url: 'https://crypto.techskillo.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://hoodaajay99.github.io', // Your website URL
+  baseUrl: '/cryptography-openssl-kernel-crypto/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'Cryptography',
+  projectName: 'cryptography-openssl-kernel-crypto',
   organizationName: 'hoodaajay99',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
