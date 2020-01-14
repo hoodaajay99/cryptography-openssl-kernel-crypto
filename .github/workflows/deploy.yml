@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
         BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: website/build/Cryptography # The folder the action should deploy.
+        FOLDER: website/build/cryptography-openssl-kernel-crypto # The folder the action should deploy.
         BUILD_SCRIPT: cd website && npm install && npm run build && cd .. # The build script the action should run prior to deploying.
