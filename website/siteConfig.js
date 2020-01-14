@@ -106,7 +106,7 @@ const siteConfig = {
   // customDocsPath: '../c_programming_course'
 
   // It will go into a CNAME file when your site is built.
-  cname: 'cprog.techskillo.com',
+  cname: 'crypto.techskillo.com',
 
   // Google Analytics tracking ID to track page views.
   gaTrackingId: "UA-46809639-2",
@@ -119,7 +119,7 @@ const siteConfig = {
   //disableTitleTagline: true,
 
   // Sets edit on each page with link to markdown file on GitHub
-  editUrl: "https://github.com/hoodaajay99/c_programming/blob/master/docs/",
+  editUrl: "https://github.com/hoodaajay99/cryptography-openssl-kernel-crypto/blob/master/docs/",
 
   // scroll to top button at the bottom of your site.
   // scrollToTop: true
