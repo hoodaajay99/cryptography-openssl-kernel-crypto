@@ -112,7 +112,7 @@ class Footer extends React.Component {
           className="fbOpenSource">
           <img
             src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+            alt="Tech Skillo"
             width="170"
             height="45"
           />
