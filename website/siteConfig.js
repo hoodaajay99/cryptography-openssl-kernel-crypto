@@ -133,7 +133,7 @@ const siteConfig = {
   // stylesheets
   // Facebook
   // twitter
-  // twitterUsername
+  // twitterUsername: "hoodaajay99",
   // twitterImage
   // Comments
   
