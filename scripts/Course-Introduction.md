@@ -4,48 +4,70 @@
 - What are the basic prerequisites to understand this course
 - Why you should take up this Course
 
-### Basic Introduction to C Language
-- Introduction to C Language
-- C Language Features
-- Why you should Lean C Language
-- Very Basic C Program
+### Introduction
+- Introduction to Cryptography
+- History of crypto
+- Types of Crypto
+- Cryptanalysis
 
-### Installing required software
-- Software and Tools for C Programming
-- Installing VS Code and Compilers on Linux
-- Installing VS Code and Compilers on Windows
-- Installing VS Code and Compilers on MacOS
-- VS Code Extensions for C Programming 
-- Installing VS Code Extensions
-- Configuring VS Code
+### Mathematics and Cryptography
+- Introduction
+- Euclidean Algorithm
+- Extended Euclidean Algorithm-I
+- Extended Euclidean Algorithm-II (Solved Examples)
+- Modular Arithmetic's - 1
+- Modular Arithmetic's - 2
+- Modular Arithmetic's - 3
 
-### Setting up the Course
-- Introduction to Git The Version Control System
-- GitHub and Source Repositories
-- Cloning the GitHub C Programming Code Repository
+### Cryptography Concepts
+- What are Ciphers?
+- What are Hashing Algorithms?
+- Hashing & Authentication
+- Different Hashing Algorithms
+- Let's Talk About Encryption
+- 
+- Understanding Encryption
+- Symmetric vs. Asymmetric Cryptography
+- Goals of Cryptography
+- Codes vs Ciphers
+- Key Lifecycle Management
+- Public Key Cryptography
+- Basic Hashing Concepts
+- Simple Symmetric Encryption The Substitution Cipher
+- Letter Frequency Analysis Attack
+- Additive Cipher
+- Cryptanalysis of Additive Cipher
 
-### Starting To Write C Code
-- Write your First Program
-- Run your first program
-- Program structure 
-- Comments Single and Multiline
-- Displaying the output
-- Getting the Input from Terminal
-- Program Flow
+### Cryptography Advanced
+- Data Encryption Standard (DES)
+- Triple DES (3DES)
+- AES
+- Blowfish
+- Twofish
+- RC4
+- RSA Cryptopgraphy
+- Elliptic-Curve Cryptography and Quantum Cryptography
+- Key Exchange
+- Diffie-Hellman Key Exchange
+- Key Escrow
+- Trust Models
+- Web of Trust (WOT)
+- Public Key Infrastructure (PKI) and Digital Certificates
+- Hash Functions
+- Digital Signatures and Digital Certificates
+- Hash Functions and Digital Certificates
+ 
+### Caesar cipher theory
+- Caesar cipher theory
+- Caesar cipher implementation
+- How to crack Caesar cipher
+- Frequency analysis and language detection
 
-### Building Blocks
-- Character Set
-- Keywords and Identifiers
-- Variables and Constants
-- Data types
-
-### Variables and Data Types
-- Basic Data Types
-- Enums and Chars
-- Format Specifiers
-- The void type
-- Derived types
-- Sizeof of Data types
+### Vigenere cipher theory
+- Vigenere cipher theory
+- Vigenere cipher implementation
+- How to crack Vigenere cipher
+- Kasiski-algorithm
 
 ### Operators
 - Overview
@@ -58,33 +80,21 @@
 - Ternary Operator
 - Operator Precedence
 
-### Storage Classes
-- auto
-- register
-- static
-- extern
+### Random Number Generators
+- Random numbers
+- Pseudo-random numbers
+- One time pad theory
+- One time pad theory Implementation
+- pseudo-random number generators
 
-### Control flow
-- Overview
-- if statement
-- switch statement
-- for Loop
-- while Loop
-- do while Loop
-- Ternary Operator
-- Nested Loop
-- Infinite Loop
-- loop Control break and continue
+### Data Encryption Standard DES
+- DES theory
+- DES implementation
+- cryptoanalysis techniques
 
-### Functions
-- Overview
-- Declaring and Defining a Function
-- Calling a Function
-- Passing Data to a Function
-- Returning data from functions
-- Local and Global Variables
-- Function Argumants Call by value
-- Function Argumants Call by reference
+### Advanced Encryption Standard AES
+- AES theory
+- AES implementation
 
 ### Scope Rules
 - Local Variable
