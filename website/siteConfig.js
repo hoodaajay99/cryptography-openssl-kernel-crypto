@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Tech Skillo', // Title for your website.
   tagline: 'Learn Cryptography',
   url: 'https://hoodaajay99.github.io', // Your website URL
-  baseUrl: '/cryptography-openssl-kernel-crypto/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
