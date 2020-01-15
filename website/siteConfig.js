@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'Tech Skillo', // Title for your website.
   tagline: 'Learn Cryptography',
-  url: 'https://hoodaajay99.github.io', // Your website URL
+  url: 'https://crypto.techskillo.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
