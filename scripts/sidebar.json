@@ -1,0 +1,236 @@
+{
+    "docs":
+    {
+        "Welcome" : [
+            "02-Welcome/02-About-Me/About-Me",
+            "02-Welcome/04-What-you-will-learn-in-this-course/What-you-will-learn-in-this-course",
+            "02-Welcome/06-What-are-the-basic-prerequisites-to-understand-this-course/What-are-the-basic-prerequisites-to-understand-this-course",
+            "02-Welcome/08-Why-you-should-take-up-this-Course/Why-you-should-take-up-this-Course"
+        ],
+        "Basic Introduction to C Language" : [
+            "04-Basic-Introduction-to-C-Language/02-Introduction-to-C-Language/Introduction-to-C-Language",
+            "04-Basic-Introduction-to-C-Language/04-C-Language-Features/C-Language-Features",
+            "04-Basic-Introduction-to-C-Language/06-Why-you-should-Lean-C-Language/Why-you-should-Lean-C-Language",
+            "04-Basic-Introduction-to-C-Language/08-Very-Basic-C-Program/Very-Basic-C-Program"
+        ],
+        "Installing required software" : [
+            "06-Installing-required-software/02-Software-and-Tools-for-C-Programming/Software-and-Tools-for-C-Programming",
+            "06-Installing-required-software/04-Installing-VS-Code-and-Compilers-on-Linux/Installing-VS-Code-and-Compilers-on-Linux",
+            "06-Installing-required-software/06-Installing-VS-Code-and-Compilers-on-Windows/Installing-VS-Code-and-Compilers-on-Windows",
+            "06-Installing-required-software/08-Installing-VS-Code-and-Compilers-on-MacOS/Installing-VS-Code-and-Compilers-on-MacOS",
+            "06-Installing-required-software/10-VS-Code-Extensions-for-C-Programming/VS-Code-Extensions-for-C-Programming",
+            "06-Installing-required-software/12-Installing-VS-Code-Extensions/Installing-VS-Code-Extensions",
+            "06-Installing-required-software/14-Configuring-VS-Code/Configuring-VS-Code"
+        ],
+        "Setting up the Course" : [
+            "08-Setting-up-the-Course/02-Introduction-to-Git-The-Version-Control-System/Introduction-to-Git-The-Version-Control-System",
+            "08-Setting-up-the-Course/04-GitHub-and-Source-Repositories/GitHub-and-Source-Repositories",
+            "08-Setting-up-the-Course/06-Cloning-the-GitHub-C-Programming-Code-Repository/Cloning-the-GitHub-C-Programming-Code-Repository"
+        ],
+        "Starting To Write C Code" : [
+            "10-Starting-To-Write-C-Code/02-Write-your-First-Program/Write-your-First-Program",
+            "10-Starting-To-Write-C-Code/04-Run-your-first-program/Run-your-first-program",
+            "10-Starting-To-Write-C-Code/06-Program-structure/Program-structure",
+            "10-Starting-To-Write-C-Code/08-Comments-Single-and-Multiline/Comments-Single-and-Multiline",
+            "10-Starting-To-Write-C-Code/10-Displaying-the-output/Displaying-the-output",
+            "10-Starting-To-Write-C-Code/12-Getting-the-Input-from-Terminal/Getting-the-Input-from-Terminal",
+            "10-Starting-To-Write-C-Code/14-Program-Flow/Program-Flow"
+        ],
+        "Building Blocks" : [
+            "12-Building-Blocks/02-Character-Set/Character-Set",
+            "12-Building-Blocks/04-Keywords-and-Identifiers/Keywords-and-Identifiers",
+            "12-Building-Blocks/06-Variables-and-Constants/Variables-and-Constants",
+            "12-Building-Blocks/08-Data-types/Data-types"
+        ],
+        "Variables and Data Types" : [
+            "14-Variables-and-Data-Types/02-Basic-Data-Types/Basic-Data-Types",
+            "14-Variables-and-Data-Types/04-Enums-and-Chars/Enums-and-Chars",
+            "14-Variables-and-Data-Types/06-Format-Specifiers/Format-Specifiers",
+            "14-Variables-and-Data-Types/08-The-void-type/The-void-type",
+            "14-Variables-and-Data-Types/10-Derived-types/Derived-types",
+            "14-Variables-and-Data-Types/12-Sizeof-of-Data-types/Sizeof-of-Data-types"
+        ],
+        "Operators" : [
+            "16-Operators/02-Overview/Overview",
+            "16-Operators/04-Arithmetic-Operators/Arithmetic-Operators",
+            "16-Operators/06-Relational-Operators/Relational-Operators",
+            "16-Operators/08-Logical-Operators/Logical-Operators",
+            "16-Operators/10-Bitwise-Operators/Bitwise-Operators",
+            "16-Operators/12-Assignment-Operators/Assignment-Operators",
+            "16-Operators/14-The-Cast-and-sizeof-Operators/The-Cast-and-sizeof-Operators",
+            "16-Operators/16-Ternary-Operator/Ternary-Operator",
+            "16-Operators/18-Operator-Precedence/Operator-Precedence"
+        ],
+        "Storage Classes" : [
+            "18-Storage-Classes/02-auto/auto",
+            "18-Storage-Classes/04-register/register",
+            "18-Storage-Classes/06-static/static",
+            "18-Storage-Classes/08-extern/extern"
+        ],
+        "Control flow" : [
+            "20-Control-flow/02-Overview/Overview",
+            "20-Control-flow/04-if-statement/if-statement",
+            "20-Control-flow/06-switch-statement/switch-statement",
+            "20-Control-flow/08-for-Loop/for-Loop",
+            "20-Control-flow/10-while-Loop/while-Loop",
+            "20-Control-flow/12-do-while-Loop/do-while-Loop",
+            "20-Control-flow/14-Ternary-Operator/Ternary-Operator",
+            "20-Control-flow/16-Nested-Loop/Nested-Loop",
+            "20-Control-flow/18-Infinite-Loop/Infinite-Loop",
+            "20-Control-flow/20-loop-Control-break-and-continue/loop-Control-break-and-continue"
+        ],
+        "Functions" : [
+            "22-Functions/02-Overview/Overview",
+            "22-Functions/04-Declaring-and-Defining-a-Function/Declaring-and-Defining-a-Function",
+            "22-Functions/06-Calling-a-Function/Calling-a-Function",
+            "22-Functions/08-Passing-Data-to-a-Function/Passing-Data-to-a-Function",
+            "22-Functions/10-Returning-data-from-functions/Returning-data-from-functions",
+            "22-Functions/12-Local-and-Global-Variables/Local-and-Global-Variables",
+            "22-Functions/14-Function-Argumants-Call-by-value/Function-Argumants-Call-by-value",
+            "22-Functions/16-Function-Argumants-Call-by-reference/Function-Argumants-Call-by-reference"
+        ],
+        "Scope Rules" : [
+            "24-Scope-Rules/02-Local-Variable/Local-Variable",
+            "24-Scope-Rules/04-Global-Variable/Global-Variable",
+            "24-Scope-Rules/06-Block-Scope/Block-Scope",
+            "24-Scope-Rules/08-Initializing-Local-and-Global-Variables/Initializing-Local-and-Global-Variables",
+            "24-Scope-Rules/10-Static-Variable/Static-Variable",
+            "24-Scope-Rules/12-Volatile-Variable/Volatile-Variable"
+        ],
+        "Arrays" : [
+            "26-Arrays/02-Overview/Overview",
+            "26-Arrays/04-Declaring-Arrays/Declaring-Arrays",
+            "26-Arrays/06-Initializing-Arrays/Initializing-Arrays",
+            "26-Arrays/08-Accessing-Array-Elements/Accessing-Array-Elements",
+            "26-Arrays/10-Multidimensional-Arrays/Multidimensional-Arrays",
+            "26-Arrays/12-Variable-Length-Arrays/Variable-Length-Arrays",
+            "26-Arrays/14-Passing-arrays-to-functions/Passing-arrays-to-functions",
+            "26-Arrays/16-Return-array-from-a-function/Return-array-from-a-function",
+            "26-Arrays/18-Pointer-to-an-array/Pointer-to-an-array"
+        ],
+        "Character Strings" : [
+            "28-Character-Strings/02-Overview/Overview",
+            "28-Character-Strings/04-Declaration-of-strings/Declaration-of-strings",
+            "28-Character-Strings/06-Initializing-a-String/Initializing-a-String",
+            "28-Character-Strings/08-Accessing-String-elements/Accessing-String-elements",
+            "28-Character-Strings/10-Constant-Strings/Constant-Strings",
+            "28-Character-Strings/12-Common-String-Functions/Common-String-Functions",
+            "28-Character-Strings/14-Searching-Tokenizing-and-Analyzing-Strings/Searching-Tokenizing-and-Analyzing-Strings",
+            "28-Character-Strings/16-Converting-Strings/Converting-Strings",
+            "28-Character-Strings/18-Passing-strings-to-function/Passing-strings-to-function"
+        ],
+        "Debugging" : [
+            "30-Debugging/02-Understanding-the-call-stack/Understanding-the-call-stack",
+            "30-Debugging/04-VS-Code-Debugger/VS-Code-Debugger",
+            "30-Debugging/06-Common-C-Mistakes/Common-C-Mistakes",
+            "30-Debugging/08-Understanding-Compiler-Errors/Understanding-Compiler-Errors"
+        ],
+        "Pointers" : [
+            "32-Pointers/02-What-are-Pointers/What-are-Pointers",
+            "32-Pointers/04-Defining-Pointers/Defining-Pointers",
+            "32-Pointers/06-Accessing-Pointers/Accessing-Pointers",
+            "32-Pointers/08-Using-Pointers/Using-Pointers",
+            "32-Pointers/10-Pointers-and-const/Pointers-and-const",
+            "32-Pointers/12-void-Pointer/void-Pointer",
+            "32-Pointers/14-Pointers-and-Arrays/Pointers-and-Arrays",
+            "32-Pointers/16-Array-of-pointers/Array-of-pointers",
+            "32-Pointers/18-Pointers-and-Strings/Pointers-and-Strings",
+            "32-Pointers/20-Pointer-Arithmetic/Pointer-Arithmetic",
+            "32-Pointers/22-Pass-by-reference/Pass-by-reference",
+            "32-Pointers/24-Pointer-to-pointer/Pointer-to-pointer",
+            "32-Pointers/26-Passing-pointers-to-functions/Passing-pointers-to-functions",
+            "32-Pointers/28-Return-pointer-from-functions/Return-pointer-from-functions"
+        ],
+        "Structures in C" : [
+            "34-Structures-in-C/02-Overview/Overview",
+            "34-Structures-in-C/04-Defining-a-Structure/Defining-a-Structure",
+            "34-Structures-in-C/06-Accessing-Structure-Members/Accessing-Structure-Members",
+            "34-Structures-in-C/08-Nested-Structures/Nested-Structures",
+            "34-Structures-in-C/10-Structures-and-Arrays/Structures-and-Arrays",
+            "34-Structures-in-C/12-Structures-and-Pointers/Structures-and-Pointers",
+            "34-Structures-in-C/14-Structures-and-Functions/Structures-and-Functions",
+            "34-Structures-in-C/16-Structures-and-Memory-Allocation/Structures-and-Memory-Allocation"
+        ],
+        "Unions in C" : [
+            "36-Unions-in-C/02-Overview/Overview",
+            "36-Unions-in-C/04-Defining-a-Union/Defining-a-Union",
+            "36-Unions-in-C/06-Accessing-Union-Members/Accessing-Union-Members",
+            "36-Unions-in-C/08-Union-vs-Structures/Union-vs-Structures",
+            "36-Unions-in-C/10-Union-and-Memory-Allocation/Union-and-Memory-Allocation"
+        ],
+        "Bit Fields" : [
+            "38-Bit-Fields/02-Overview/Overview",
+            "38-Bit-Fields/04-Defining-a-Bit-Field/Defining-a-Bit-Field",
+            "38-Bit-Fields/06-Bit-Fields-and-Memory-Allocation/Bit-Fields-and-Memory-Allocation"
+        ],
+        "typedef Type Aliases" : [
+            "40-typedef-Type-Aliases/02-Overview/Overview",
+            "40-typedef-Type-Aliases/04-Defining-a-typedef/Defining-a-typedef",
+            "40-typedef-Type-Aliases/06-typedef-vs-hash-define/typedef-vs-hash-define"
+        ],
+        "Terminal Input and Output" : [
+            "42-Input-and-Output/02-Overview/Overview",
+            "42-Input-and-Output/04-Standard-Files/Standard-Files",
+            "42-Input-and-Output/06-getchar-and-putchar-Functions/getchar-and-putchar-Functions",
+            "42-Input-and-Output/08-gets-and-puts-Functions/gets-and-puts-Functions",
+            "42-Input-and-Output/10-scanf-and-printf-Functions/scanf-and-printf-Functions"
+        ],
+        "File Input and Output" : [
+            "44-Input-and-Output/02-Overview/Overview",
+            "44-Input-and-Output/04-Opening-Files/Opening-Files",
+            "44-Input-and-Output/06-Closing-a-File/Closing-a-File",
+            "44-Input-and-Output/08-Writing-a-File/Writing-a-File",
+            "44-Input-and-Output/10-Reading-a-File/Reading-a-File",
+            "44-Input-and-Output/12-Binary-Input-Output-Functions/Binary-Input-Output-Functions"
+        ],
+        "Preprocessors" : [
+            "46-Preprocessors/02-What-is-Preprocessor-and-Preprocessor-Directives/What-is-Preprocessor-and-Preprocessor-Directives",
+            "46-Preprocessors/04-Directive-&-Description/Directive-&-Description",
+            "46-Preprocessors/06-Predefined-Macros/Predefined-Macros",
+            "46-Preprocessors/08-Preprocessor-Operators/Preprocessor-Operators",
+            "46-Preprocessors/10-Parameterized-Macros/Parameterized-Macros",
+            "46-Preprocessors/12-Directives-Best-Practices/Directives-Best-Practices"
+        ],
+        "Header Files" : [
+            "48-Header-Files/02-Include-Syntax/Include-Syntax",
+            "48-Header-Files/04-Include-Operation/Include-Operation",
+            "48-Header-Files/06-Once-Only-Headers/Once-Only-Headers",
+            "48-Header-Files/08-Computed-Includes/Computed-Includes",
+            "48-Header-Files/10-Header-file-and-Best-Practices/Header-file-and-Best-Practices"
+        ],
+        "Standard Header Files" : [
+            "50-Standard-Header-Files/02-Standard-Header-Files/Standard-Header-Files",
+            "50-Standard-Header-Files/04-Various-Functions/Various-Functions",
+            "50-Standard-Header-Files/06-Math-Functions/Math-Functions",
+            "50-Standard-Header-Files/08-Utility-Functions/Utility-Functions",
+            "50-Standard-Header-Files/10-Best-Practices/Best-Practices"
+        ],
+        "Type Casting" : [
+            "52-Type-Casting/02-Overview/Overview",
+            "52-Type-Casting/04-Integer-Promotion/Integer-Promotion",
+            "52-Type-Casting/06-Normal-Arithmetic-Conversion/Normal-Arithmetic-Conversion",
+            "52-Type-Casting/08-Explicit-Type-Casting/Explicit-Type-Casting",
+            "52-Type-Casting/10-Type-Casting-Best-Practices/Type-Casting-Best-Practices"
+        ],
+        "Error Handling" : [
+            "54-Error-Handling/02-Overview/Overview",
+            "54-Error-Handling/04-errno-perror-and-strerror/errno-perror-and-strerror",
+            "54-Error-Handling/06-Divide-by-Zero-Errors/Divide-by-Zero-Errors",
+            "54-Error-Handling/08-Program-Exit-Status/Program-Exit-Status",
+            "54-Error-Handling/10-Error-Handling-Best-Practices/Error-Handling-Best-Practices"
+        ],
+        "Variable Arguments" : [
+            "56-Variable-Arguments/02-Overview/Overview",
+            "56-Variable-Arguments/04-Variable-Arguments-to-a-Function/Variable-Arguments-to-a-Function",
+            "56-Variable-Arguments/06-The-printf-function/The-printf-function"
+        ],
+        "Memory Management" : [
+            "58-Memory-Management/02-Static-vs-Dynamic-Memory-Allocation/Static-vs-Dynamic-Memory-Allocation",
+            "58-Memory-Management/04-Allocating-Memory-Dynamically/Allocating-Memory-Dynamically",
+            "58-Memory-Management/06-Resizing-Memory/Resizing-Memory",
+            "58-Memory-Management/08-DeAllocating-Memory/DeAllocating-Memory",
+            "58-Memory-Management/10-Garbage-Collection/Garbage-Collection",
+            "58-Memory-Management/12-Best-Practices/Best-Practices"
+        ]
+    }
+}
