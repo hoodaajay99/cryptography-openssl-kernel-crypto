@@ -12,11 +12,12 @@ jobs:
         cd website
         npm install
         npm run build
-        touch ./build/.nojekyll
+        touch ./build/cryptography-openssl-kernel-crypto/.nojekyll
+        ls -al ./build/cryptography-openssl-kernel-crypto/
     
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./build
+        PUBLISH_DIR: ./website/build/cryptography-openssl-kernel-crypto/
