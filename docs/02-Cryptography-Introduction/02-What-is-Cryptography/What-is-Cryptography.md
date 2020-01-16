@@ -38,7 +38,7 @@ Cryptographic algorithms are used for:
 - Space Applications
 - E-Commerce
 - Chip based E-Payments
-- Degital Currencies - Bitcoin
+- Degital Currencies - Bitcoin 
 
 ## Misuse of cryptography
 
