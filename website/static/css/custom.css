@@ -29,6 +29,11 @@
 .toc .toggleNav ul {
     border-left: 1px solid #874aa2;
     margin-left: 2px;
+    padding: 0px;
+}
+
+.toc .toggleNav ul li a {
+    margin-left: 7px;
 }
 
 .nav-footer {
