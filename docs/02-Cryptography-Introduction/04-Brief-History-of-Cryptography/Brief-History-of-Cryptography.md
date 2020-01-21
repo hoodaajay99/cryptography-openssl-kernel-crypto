@@ -70,7 +70,17 @@ Mechanical and electromechanical provided more advanced and efficient means of c
 Great advances were made in both cipher design and cryptanalysis. 
 
 
+## Some Historical facts around Use of Crypto Algorithms
 
-
+- The Caesar Shift Cipher Was Used By the Roman Army
+- Scytale Was A Simple Cipher Used By The Spartans
+- Steganography Hides Messages in Plain Sight and used by Ancient Greece
+- The Pigpen Cipher Was Used by The Masons
+- Breaking The Enigma Code Significantly Shortened World War 2
+- The Playfair Cipher Used Pairs of Letters For Encryption
+- The Polyalphabetic Cipher Finally dodged Frequency Analysis
+- The Data Encryption Standard Kicked Off Modern Cryptology Advancement
+- Public-Key Cryptography Was An Official Secret For 27 Years
+- Advanced Encryption Standard Is the Modern Standard
 
 
