@@ -36,6 +36,14 @@
     margin-left: 7px;
 }
 
+article p img, article iframe {
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-height: 150px;
+}
+
 .nav-footer {
     background: linear-gradient(120deg, #874aa2 50%, #e961b6 50%);
 }
