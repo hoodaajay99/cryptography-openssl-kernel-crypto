@@ -63,10 +63,11 @@ By Definition, Steganography is a method of hiding secret data, by embedding it 
 
 In 19th century, cryptography evolved from the simple approaches to encryption to the more sophisticated art and science of information and security. Many more advanced encryption or cryptanalysis (the science of finding weaknesses in crypto systems) systems were develped.
 
-Later in 20th century, the invention of mechanical and electromechanical machines, such as the **Enigma rotor machine**, provided more advanced and efficient means of coding the information.
+By World War II, **mechanical and electromechanical** cipher machines were in wide use such as the **Enigma rotor machine**. Places where such machines were impractical, code books and manual systems were in use. 
 
-## Modern Advances in Cryptography
+Mechanical and electromechanical provided more advanced and efficient means of coding the information.
 
+Great advances were made in both cipher design and cryptanalysis. 
 
 
 
