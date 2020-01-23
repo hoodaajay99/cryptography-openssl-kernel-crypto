@@ -100,6 +100,6 @@ It performs following steps to Decrypt and verify the message:
   - It shall use the Sender's `Public Key` (Public Key is available to everyone and accessed via Public Key Repositories, a separate topic), to decrypt the Sender's `Hash Value` from the `Digital Signature`.
   - The Receive will then apply the hash function to Sender's original message, which has already been decrypted (Step 2) and gets its own `Hash Value`.
   - If `Hash Value` matches with the Sender's `Hash Value`, it sensures that the message has not been altered in transmit.
-
+  - This scheme also provides `non-repudiation` since it proves that Sender sent the message. If the hash value recovered by the Receiver using Sender's public key proves that the message has not been altered, then only intended Sender could have created the digital signature.
 
 > Even after using advanced **Hybrid Cryptosystem** as described above, we still have **Trust issues**, which are further solved by `Trust Models` described in further sections.
