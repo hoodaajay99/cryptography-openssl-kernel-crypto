@@ -22,17 +22,17 @@
       "02-Cryptography-Introduction/36-Cryptoanalysis-Techniques/Cryptoanalysis-Techniques",
       "02-Cryptography-Introduction/38-Key-Lifecycle-Management/Key-Lifecycle-Management"
     ],
-    "Types of Attacks": [
-      "04-Types-of-Attacks/02-Passive-Attacks/Passive-Attacks",
-      "04-Types-of-Attacks/04-Active-Attacks/Active-Attacks",
-      "04-Types-of-Attacks/06-Sniffing-or-Eavesdropping/Sniffing-or-Eavesdropping",
-      "04-Types-of-Attacks/08-Traffic-Analysis-–-Deep-Packet-Inspection/Traffic-Analysis-–-Deep-Packet-Inspection",
-      "04-Types-of-Attacks/10-Masquerade-and-Replay-Attack/Masquerade-and-Replay-Attack",
-      "04-Types-of-Attacks/12-Brute-Force-Attacks/Brute-Force-Attacks",
-      "04-Types-of-Attacks/14-Dictionary-Attack/Dictionary-Attack",
-      "04-Types-of-Attacks/16-Rainbow-Table-Attack/Rainbow-Table-Attack",
-      "04-Types-of-Attacks/18-Collision-Attack/Collision-Attack",
-      "04-Types-of-Attacks/20-Pre-image-Attack/Pre-image-Attack"
+    "Attacks On Cryptosystems": [
+      "04-Attacks-On-Cryptosystems/Passive-Attacks",
+      "04-Attacks-On-Cryptosystems/Active-Attacks",
+      "04-Attacks-On-Cryptosystems/Sniffing-or-Eavesdropping",
+      "04-Attacks-On-Cryptosystems/Traffic-Analysis-–-Deep-Packet-Inspection",
+      "04-Attacks-On-Cryptosystems/Masquerade-and-Replay-Attack",
+      "04-Attacks-On-Cryptosystems/Brute-Force-Attacks",
+      "04-Attacks-On-Cryptosystems/Dictionary-Attack",
+      "04-Attacks-On-Cryptosystems/Rainbow-Table-Attack",
+      "04-Attacks-On-Cryptosystems/Collision-Attack",
+      "04-Attacks-On-Cryptosystems/Pre-image-Attack"
     ],
     "Cryptography Algotithms": [
       "06-Cryptography-Algotithms/02-Simple-Cyphers/Simple-Cyphers",
