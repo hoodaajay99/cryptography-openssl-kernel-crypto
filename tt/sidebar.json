@@ -1,0 +1,137 @@
+{
+    "docs":
+    {
+        "Overview" : [
+            "02-Overview/02-Overview/Overview"
+        ],
+        "Cryptography Introduction" : [
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/What-is-Cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Brief-History-of-Cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Common-Terms-in-Cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Primary-functions-of-cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Cryptography-vs-Cryptanalysis",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Cryptography-Classification",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Traditional-Cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Modern-Cryptography",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Basic-Communication-Model",
+            "04-Cryptography-Introduction/04-Cryptography-Introduction/Cryptoanalysis-Techniques"
+        ],
+        "Cryptosystems" : [
+            "06-Cryptosystems/06-Cryptosystems/What-is-a-Cryptosystem",
+            "06-Cryptosystems/06-Cryptosystems/Types-of-Cryptosystems",
+            "06-Cryptosystems/06-Cryptosystems/Principles-for-Cryptosystem",
+            "06-Cryptosystems/06-Cryptosystems/Hybrid-Cryptosystems"
+        ],
+        "Attacks On Cryptosystems" : [
+            "08-Attacks-On-Cryptosystems/08-Attacks-On-Cryptosystems/Attacks-Classification",
+            "08-Attacks-On-Cryptosystems/08-Attacks-On-Cryptosystems/Common-Attacks"
+        ],
+        "Traditional Ciphers" : [
+            "10-Traditional-Ciphers/10-Traditional-Ciphers/Substitution-Cipher",
+            "10-Traditional-Ciphers/10-Traditional-Ciphers/Transposition-Cipher"
+        ],
+        "Secret Key Encryption" : [
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Symmetric-Key-Cryptosystem",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Block-vs-Stream-Cipher",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Stream-Cipher",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Block-Cipher",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Block-Cipher-Modes",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Data-Encryption-Standard",
+            "12-Secret-Key-Encryption/12-Secret-Key-Encryption/Advanced-Encryption-Standard"
+        ],
+        "Public Key Encryption" : [
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Public-Key-Cryptosystem",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/RSA-Cryptosystem",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/ElGamal-Cryptosystem",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Elliptic-Curve-Cryptography-(ECC)",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Asymmetric-Key-Algorithms",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Key-Management-Process",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Diffie-Hellman-Key-Exchange",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Key-Escrow",
+            "14-Public-Key-Encryption/14-Public-Key-Encryption/Brief-on-Trust-Models"
+        ],
+        "Hash functions" : [
+            "16-Hash-functions/16-Hash-functions/Data-Integrity-in-Cryptography",
+            "16-Hash-functions/16-Hash-functions/Hash-functions",
+            "16-Hash-functions/16-Hash-functions/Hash-Algorithms"
+        ],
+        "Message Authentication" : [
+            "18-Message-Authentication/18-Message-Authentication/Overview",
+            "18-Message-Authentication/18-Message-Authentication/Digital-Signatures"
+        ],
+        "Public Key Infrastructure and Trust Models" : [
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/Public-Key-Infrastructure",
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/Trust-Models",
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/PGP-Web-of-Trust",
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/Kerberos",
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/Public-Key-Certificates-and",
+            "20-Public-Key-Infrastructure-and-Trust-Models/20-Public-Key-Infrastructure-and-Trust-Models/Certification-Authorities"
+        ],
+        "OpenSSL" : [
+            "22-OpenSSL/22-OpenSSL/Introduction",
+            "22-OpenSSL/22-OpenSSL/openSSL-set-up",
+            "22-OpenSSL/22-OpenSSL/Generating-a-secret-Key",
+            "22-OpenSSL/22-OpenSSL/Key-space",
+            "22-OpenSSL/22-OpenSSL/Cipher-algorithm",
+            "22-OpenSSL/22-OpenSSL/Algorithm-operations-part-1",
+            "22-OpenSSL/22-OpenSSL/Algorithm-operations-part-2",
+            "22-OpenSSL/22-OpenSSL/Encrypting-with-a-symmetric-key-part-1",
+            "22-OpenSSL/22-OpenSSL/Encrypting-with-a-symmetric-key-part-2",
+            "22-OpenSSL/22-OpenSSL/Encrypting-and-decrypting-summary",
+            "22-OpenSSL/22-OpenSSL/Speed-Test",
+            "22-OpenSSL/22-OpenSSL/Hash-intro",
+            "22-OpenSSL/22-OpenSSL/One-way-function",
+            "22-OpenSSL/22-OpenSSL/Integrity-check",
+            "22-OpenSSL/22-OpenSSL/Hash-check-2-files",
+            "22-OpenSSL/22-OpenSSL/Encrypted-Hash",
+            "22-OpenSSL/22-OpenSSL/Confidentiality",
+            "22-OpenSSL/22-OpenSSL/Hashed-passwords-in-linux",
+            "22-OpenSSL/22-OpenSSL/Hash-mp3-with-Sha256",
+            "22-OpenSSL/22-OpenSSL/Hash-speed-test"
+        ],
+        "Cryptography Algorithms in Action" : [
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Password-Protection",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Diffie-Hellman-Key-Exchange",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/RSA-Public-Key-Cryptography",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/DES,-Breaking-DES,-and-DES-Variants",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Pretty-Good-Privacy-(PGP)",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/IP-Security-(IPsec)-Protocol",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Secure-Transactions-with-SSL-and-TLS",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Elliptic-Curve-Cryptography-(ECC)",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/The-Advanced-Encryption-Standard-(AES)-and-Rijndael",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Cisco's-Stream-Cipher",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/TrueCrypt",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Encrypting-File-System-(EFS)",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Challenge-Handshake-Authentication-Protocol-(CHAP)",
+            "24-Cryptography-Algorithms-in-Action/24-Cryptography-Algorithms-in-Action/Secure-E-mail-and-S/MIME"
+        ],
+        "Advanced Topics in Crypto" : [
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Blockchain",
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Cryptocurrency",
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Permissioned-Distributed-Ledger",
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Permission-less-Distributed-Ledger",
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Smart-Contracts",
+            "26-Advanced-Topics-in-Crypto/26-Advanced-Topics-in-Crypto/Oracles"
+        ],
+        "Common Protocols using Cryptography" : [
+            "28-Common-Protocols-using-Cryptography/28-Common-Protocols-using-Cryptography/SSL-and-TLS",
+            "28-Common-Protocols-using-Cryptography/28-Common-Protocols-using-Cryptography/OpenSSL",
+            "28-Common-Protocols-using-Cryptography/28-Common-Protocols-using-Cryptography/HTTPS"
+        ],
+        "Cryptographic Tools" : [
+            "30-Cryptographic-Tools/30-Cryptographic-Tools/Encryption",
+            "30-Cryptographic-Tools/30-Cryptographic-Tools/HashingHash",
+            "30-Cryptographic-Tools/30-Cryptographic-Tools/File-Shredders",
+            "30-Cryptographic-Tools/30-Cryptographic-Tools/Steganography"
+        ],
+        "Certificates and Certification Authority" : [
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/overview-of-CA",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Public-Vs-Private-CA",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Root-and-Subordinate-CAs",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Stand-Alone-vs-Enterprise-CAs",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Consideration-for-Implementing-CA-Hierarchy",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Certificate-Request-or-Enrollment",
+            "32-Certificates-and-Certification-Authority/32-Certificates-and-Certification-Authority/Hands-On-with-CA-Certificates"
+        ]
+    }
+}

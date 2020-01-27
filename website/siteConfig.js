@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: '02-Cryptography-Introduction/00-Overview/Cryptography-Tutorial-Overview', label: 'START THE COURSE'}
+    {doc: '02-Overview/Overview', label: 'START THE COURSE'}
   ],
 
   // If you have users set above, you add it here:

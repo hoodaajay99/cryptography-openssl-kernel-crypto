@@ -88,39 +88,27 @@ while read line; do
             subFolderStr=$subFolderCounter-${subFolderBase}
         fi
 
-        if [ $USE_SUB_FOLDER -eq 1 ]; then
-
-            FOLDER=${OUTPUT_FOLDER}/${outerFolderStr// /-}/${subFolderStr// /-};
-
-            MD_FILE=${OUTPUT_FOLDER}/${outerFolderStr// /-}/${subFolderStr// /-}/${subFolderStr// /-}.md
-            MD_ID=${subFolderBase// /-}
-            MD_TITLE=${subFolderBase}
-
-            SIDEBAR_ENTRY=${outerFolderStr// /-}/${subFolderStr// /-}/${MD_ID}
-        else 
-
-            FOLDER=${OUTPUT_FOLDER}/${outerFolderStr// /-};
-
-            MD_FILE=${OUTPUT_FOLDER}/${outerFolderStr// /-}/${subFolderStr// /-}.md
-            MD_ID=${subFolderBase// /-}
-            MD_TITLE=${subFolderBase}
-
-            SIDEBAR_ENTRY=${outerFolderStr// /-}/${MD_ID}
-        fi
-
-
+        FOLDER=${outerFolderStr// /-};
+        FILE_NAME_BASE=${subFolderBase// /-};
+        FILE=${outerFolderStr// /-}/${subFolderStr// /-}.md
+        TITLE=${outerFolderStr}
         
         echo "---";
         echo "ajay FOLDER" + $FOLDER;
-
-        echo "ajay MD_FILE" + $MD_FILE;
-        echo "ajay MD_ID" + $MD_ID;
-        echo "ajay MD_TITLE" + $MD_TITLE;
-
-        echo "ajay SIDEBAR_ENTRY" + $SIDEBAR_ENTRY;
+        echo "ajay FILE_NAME_BASE" + $FILE_NAME_BASE;
+        echo "ajay FILE" + $FILE;
     
+        # Use Sub Folder
+        # FOLDER=${OUTPUT_FOLDER}/${outerFolderStr}/${outerFolderStr}
+
+        # Not use subfolder
+#        FOLDER=${OUTPUT_FOLDER}/${outerFolderStr}
+
+#        FILE_NAME_BASE=${subFolderBase// /-}
+#        FILE=${FOLDER}/${outerFolderStr}.md
+
         mkdir -p ${FOLDER}
-        touch ${MD_FILE}
+        touch ${FILE}
 
         # Create Front Mater
         # ---
@@ -129,17 +117,17 @@ while read line; do
         # sidebar_label: About Me
         # ---
 
-        echo "---" >${MD_FILE}
-        echo "id: ${MD_ID}" >>${MD_FILE}
-        echo "title: ${MD_TITLE}" >>${MD_FILE}
-        echo "sidebar_label: ${MD_TITLE}" >>${MD_FILE}
-        echo "---" >>${MD_FILE}
-        echo "" >>${MD_FILE}
-        echo "" >>${MD_FILE}
-        echo "##" >>${MD_FILE}
+        echo "---" >${FILE}
+        echo "id: ${FILE_NAME_BASE}" >>${FILE}
+        echo "title: ${subFolderBase}" >>${FILE}
+        echo "sidebar_label: ${subFolderBase}" >>${FILE}
+        echo "---" >>${FILE}
+        echo "" >>${FILE}
+        echo "" >>${FILE}
+        echo "#" >>${FILE}
 
         # update Sidebar
-        TEXT="${SIDEBAR_ENTRY}";
+        TEXT="${outerFolderStr}/${outerFolderStr}/${FILE_NAME_BASE}";
         echo '            "'${TEXT}'"'','>> ${SIDEBAR_FILE}
 
         ;;
