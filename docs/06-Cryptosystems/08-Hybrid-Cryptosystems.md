@@ -1,7 +1,7 @@
 ---
-id: Why-Three-Encryption-Techniques
-title: Why Three Encryption Techniques
-sidebar_label: Why Three Encryption Techniques
+id: Hybrid-Cryptosystems
+title: Hybrid Cryptosystems
+sidebar_label: Hybrid Cryptosystems
 ---
 
 ## Hybrid Cryptosystem
