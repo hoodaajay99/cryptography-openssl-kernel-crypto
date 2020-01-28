@@ -10,7 +10,7 @@ With the advancements of Computing, Networking, Storage and Internet Cryptograph
 
 Modern Cryptography is a complex system involving Mathematical Algorithms, Advanced Computing, Hardware Accelerated Devices, Networking Systems and Private and Public Crypto Infrastructures.
 
-Encryption in modern times is achieved by using algorithms that have a key to encrypt and decrypt information. These keys convert the messages and data into Cyphertext through encryption and then return them to the original form through decryption.
+Encryption in modern times is achieved by using algorithms that have a key to encrypt and decrypt information. These keys convert the messages and data into Ciphertext through encryption and then return them to the original form through decryption.
 
 ![Crypyography Encryption Decryption](assets/crypyography-enc-dec.png)
 
