@@ -38,13 +38,20 @@ Cryptographic algorithms are used for:
 - Space Applications
 - E-Commerce
 - Chip based E-Payments
-- Degital Currencies - Bitcoin 
+- Digital Currencies - Bitcoin
+- Mobile phones connecting to cell towers.
+- Credit cards, EC-cards, access codes for banks.
+- Electronic passports; soon ID cards
+- Internet commerce, online tax declarations, webmail
+- Facebook, Gmail, WhatsApp, iMessage on iPhone.
+- Any webpage with https
+- PGP encrypted email, Signal, Tor, Tails, Qubes OS
 
 ## Misuse of cryptography
 
 - Illegal communication on Messaging Platforms
 
-Most messaging Platforms now a days use cryptography for secured comminication, which are misused by miscreants for Illegal communication. Its hard for governments to intercept those messages.
+Most messaging Platforms now a days use cryptography for secured communication, which are misused by miscreants for Illegal communication. Its hard for governments to intercept those messages.
 
 - Piracy Issues on Peer to Peer Networks 
 
@@ -52,7 +59,7 @@ It has become difficult to check Content Piracy due to Peer to Peer Networks usi
 
 - Data Stealing and Privacy
 
-Many apps on comuting devices like Smartphones use cryptography to hide stealing of uses data leading to Privacy concerns.
+Many apps on computing devices like Smartphones use cryptography to hide stealing of uses data leading to Privacy concerns.
 
 - Spying Devices and Bots
 
