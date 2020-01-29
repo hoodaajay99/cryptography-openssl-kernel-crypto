@@ -249,4 +249,16 @@ Block Ciphers have following disadvantages as compared to stream ciphers:
 - Block ciphers are slower and less memory efficient than stream ciphers. 
 - It is often necessary to pad plaintexts to a multiple of the block length.
 - Transmission errors often cause the rest of the ciphertext to be unrecoverable.
-- 
+
+## Additional Block Cipher Mode Variants
+
+- XCBC
+- IACBC
+- IAPM - Integrity Aware Parallelizable Mode
+- OCB Mode
+- EAX mode (encrypt-then-authenticate-then-translate)
+- CWC Mode (AEAD Mode)
+- CCM Mode - Authenticated Encryption Algorithm
+- Narrow-block encryption modes (LRW, XEX, and XTS)
+- Wide-block encryption modes (CMC and EME)
+- Message authentication codes (MACs) are often built from block ciphers. CBC-MAC, OMAC and PMAC
