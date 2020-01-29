@@ -14,7 +14,7 @@ Block cipher algorithm which takes fixed size of input (called block) and produc
 
 - **Padding:** A block cipher works on units of a fixed size (known as a block size), but messages come in a variety of lengths. So some modes (namely ECB and CBC) require that the final block be padded before encryption.
 
-## Electronic Code Book (ECB) 
+## Electronic Code Book (ECB) Mode 
 
 This is the simplest of the encryption modes where the message is divided into blocks, and each block is encrypted separately.
 
@@ -52,7 +52,7 @@ Diagram below shows each Block of Ciphertext being decrypted independently using
 ECB is not recommended for use in cryptographic protocols.
 
 
-## Cipher Block Chaining (CBC)
+## Cipher Block Chaining (CBC) Mode
 
 In the cipher block chaining (CBC) mode of operation, an **initialization vector (IV)** is exclusive-ored with the plaintext prior to encryption. For the first round of encryption, this is a random, public value. For subsequent rounds, it is the ciphertext of the previous round.
 
@@ -89,7 +89,7 @@ This is intended to fix the issue with ECB mode where identical plaintext blocks
 
 CBC is pretty good for use in cryptographic protocols.
 
-## Propagating CBC (PCBC)
+## Propagating CBC (PCBC) Mode
 
 In PCBC mode, each block of plaintext is XORed with both the previous plaintext block and the previous ciphertext block before being encrypted. As with CBC mode, an initialization vector is used in the first block.
 
@@ -123,7 +123,7 @@ In PCBC mode, each block of plaintext is XORed with both the previous plaintext 
 
 CBC is pretty good for use in cryptographic protocols but no longer used because of parallel processing drawbacks. 
 
-## Cipher Feedback (CFB)
+## Cipher Feedback (CFB) Mode
 
 The cipher feedback (CFB) mode differs from the previous modes in that the plaintext never passes through the encryption algorithm at all. Instead an initialization vector (IV) is encrypted and the result is exclusive-ored with the plaintext to create the ciphertext of a block. 
 
@@ -157,7 +157,7 @@ The Cipher Feedback (CFB) mode is a close relative of CBC and makes a block ciph
 
 - CFB is pretty good for use in cryptographic protocols.
 
-## Output Feedback (OFB)
+## Output Feedback (OFB) Mode
 
 The output feedback (OFB) mode of operation is almost identical to cipher feedback mode. The only difference is what is used as the initialization vector for every round after the first. In cipher feedback mode, the output of the encryption is exclusive-ored with the plaintext and this value is used as the next block's IV. In output feedback mode, the output of the encryption is used as the next block's IV. As a result, encryption of the same plaintext with the same key using CFB and OFB modes will produce the same ciphertext for the first block but different ones for every other block.
 
@@ -191,11 +191,43 @@ The Output Feedback (OFB) mode makes a block cipher into a synchronous stream ci
 - OFB is pretty good for use in cryptographic protocols.
 
 
-## Counter (CTR)
+## Counter (CTR) Mode
+
+The counter (CTR) mode of operation differs from the all of the others that we have seen so far. Similar to ECB mode, every encryption operation is completely separate. 
+
+Instead of an initialization vector, it uses a combination of a nonce and a counter. The nonce is a random number used for all blocks of an encryption operation and the counter is a value that starts at zero for block zero and increments to one for block one and so on.
+
+This combination guarantees that the same values will not pass through the encryption algorithm in the same encryption session (where every block will have the same nonce but different counter values) or the same blocks in different sessions (where every block will have the same counter value but difference nonces). Similar to the feedback modes of operation (OFB and CFB), the plaintext is exclusive-ored with the output of the encryption operation to produce the ciphertext.
 
 
+### Encryption
 
-- 
+- For encrypting a Block of Plaintext a combination of Nonce and Counter is encrypted with the shared secret key to arrive at an **intermediate ciphertext**. This intermediate ciphertext is then XOred with the Plaintext to arrive at the Ciphertext.
+- Each Block of Plaintext is encrypted independently.
+
+![Block-Cipher-Encryption-Mode-CTR_encryption-techskillo.png](assets/Block-Cipher-Encryption-Mode-CTR_encryption-techskillo.png)
+
+### Decryption
+
+- For decrypting a Block of Ciphertext a combination of Nonce and Counter is encrypted with the shared secret key to arrive at an **intermediate ciphertext**. This intermediate ciphertext is then XOred with the Ciphertext to arrive at the Plaintext.
+- Each Block of Ciphertext is decrypted independently.
+
+![Block-Cipher-Encryption-Mode-CTR_decryption-techskillo.png](assets/Block-Cipher-Encryption-Mode-CTR_decryption-techskillo.png)
+
+### Advantages of using CTR
+- It is difficult to apply cryptanalysis.
+- Allows a random access property during decryption
+- Encryption can be done in parallel.
+- Decryption can be done in parallel.
+
+### Disadvantages of using CTR
+
+- If the nonce offset/location information is corrupt, it will be impossible to partially recover such data due to the dependence on byte offset.
+
+### Security of the CTR mode
+
+- CTR mode is widely accepted and any problems are considered a weakness of the underlying block cipher.
+
 
 ## Galois Counter Mode
 
