@@ -55,23 +55,45 @@ This technique is also called Deep Packet Inspection.
 
 ## Types of Active Attacks
 
+![active-attack-techskillo.png](assets/active-attack-techskillo.png)
+
 ### Masquerade Attack
 
-![attack-active-masquerade-techskillo.png](assets/attack-active-masquerade-techskillo.png)
-
-_Unauthorized Third Party Masquerades as Sender_ and sends the data to the Receiver in the name of the Sender.
+**Unauthorized Third Party Masquerades as Sender** and sends the data to the Receiver in the name of the Sender.
 
 ### Replay Attack
 
-_Unauthorized Third Party_ also receives the Message from the Sender, changes the Message and sends it to the Receiver. Receiver will receive two messages in this case. 
+**Unauthorized Third Party** also receives the Message from the Sender, **changes the Message and sends it to the Receiver**. **Receiver will receive two messages** in this case. 
 
 ### Data Modification
 
-_Unauthorized Third Party_ receives the Message from the Sender, changes the Message and sends it to the Receiver. Original Message does not go to the receiver. 
+Unauthorized Third Party receives the Message from the Sender, changes the Message and sends it to the Receiver. **Original Message does not go to the receiver**. 
     
 All messages are still from the Sender and Receiver does not know that data has been modified. 
 
 ### Denial Of Service
 
-_Unauthorized Third Party_ interrupts the services of the communication system by sending too many messages to the Server, either on behalf of genuine users or fake users.  
+Unauthorized Third Party interrupts the services of the communication system by sending too many messages to the Server, either on behalf of genuine users or fake users.  
+
+ of the algorithm are in the public domain, except the Keys.
+- Proprietary algorithms − The details of the algorithm are only known by the system designers and users.
+
+### Availability of Ciphertext
+
+We know that once the plaintext is encrypted into ciphertext, it is put on unsecure public channel for transmission and attacker can assume access to the Ciphertext.
+
+### Availability of Plaintext and Ciphertext
+
+Attacker can have access to plaintext and corresponding ciphertext.
+
+Ex: In a public-key cryptosystem, the encryption key is in open domain and is known to any potential attacker. Using this key, he can generate pairs of corresponding plaintext and ciphertext.## Attacker Knowledge of cryptosystems environment
+
+While considering possible attacks on the cryptosystem, it is necessary to know the cryptosystems environment by the attacker.
+
+In cryptography, the following three assumptions are made about the security environment and attacker’s capabilities.
+
+### Details of the Encryption Scheme
+
+- **Public Algorithm**s − All the details
+
 
