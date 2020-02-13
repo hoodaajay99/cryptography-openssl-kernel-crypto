@@ -8,6 +8,22 @@ sidebar_label: Common Terms in Cryptography
 
 Information Security is basically the practice of preventing unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information. Information can be physical or electrical one.
 
+## Plaintext
+
+Plain text is the original data which can be easily read and interpreted by anyone having access to it. 
+
+## Ciphertext
+
+Ciphertext is the garbled data which can not be easily read and interpreted by anyone having access to it. 
+
+## Encryption
+
+Process to convert Plaintext to Ciphertext. Encryption is usually done at the sender side.
+
+## Decryption
+
+Decryption is the process to convert Ciphertext to Plaintext. Decryption is usually done at the receiver side.
+
 ## Cryptology
 
 Cryptology is the science concerned with data communication and storage in secure and usually secret form. It encompasses both cryptography and cryptanalysis.
@@ -33,6 +49,22 @@ In cryptography, a cryptosystem is a suite of cryptographic algorithms needed to
 The Security Services implemented are confidentiality/Privacy, Authentication, Message Integrity, Non-repudiation and Key exchange.
 
 Typically, a cryptosystem consists of three algorithms: one for key generation, one for encryption, and one for decryption.
+
+## Stream Cipher
+
+Encryption can be done in two ways namely Stream Cipher and Block Cipher. 
+
+In Stream Cipher, conversion of Plaintext to Ciphertext is done bit by bit.  
+
+It is suitable for encrypting smaller messages.
+
+## Block Cipher
+
+Encryption can be done in two ways namely Stream Cipher and Block Cipher. 
+
+In Block Cipher, conversion of Plaintext to Ciphertext is done Block by Block. Block Size usually varies from 32 bits to 4096 bits.  
+
+It is suitable for encrypting larger messages.
 
 ## Privacy/confidentiality
 
@@ -102,7 +134,7 @@ Examples of Modern Ciphers include, RSA, AES, KASUMI, Blowfish, Twofish etc.
 
 > Cryptography Algorithm is same as Cipher
 
-## Private Key Cryptography
+## Private Key Cryptography (Symmetric Encryption)
 
 Private key Cryptography is the form of encryption where only a single private key is used to encrypt and decrypt information. 
 
@@ -110,9 +142,11 @@ It is a fast process since it uses a single key.
 
 > Private Key Cryptography is also called Secret Key Cryptography or Private Key Encryption
 
-## Public Key Cryptography
+## Public Key Cryptography (Asymmetric Encryption)
 
-Public Key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner.
+Public Key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be shared publicly, and private keys which are known only to the owner.
+
+Public and Private keys are mathematically related. If Private Key is used for Encryption, corresponding Public Key should be used for Decryption and vice versa.
 
 > Public Key Cryptography is also called as Asymmetric Key Cryptography or Public Key Encryption
 
