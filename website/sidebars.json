@@ -35,6 +35,7 @@
             "12-Secret-Key-Encryption/Block-vs-Stream-Cipher",
             "12-Secret-Key-Encryption/Stream-Cipher",
             "12-Secret-Key-Encryption/Block-Cipher",
+            "12-Secret-Key-Encryption/Feistel-Cipher",
             "12-Secret-Key-Encryption/Block-Cipher-Modes",
             "12-Secret-Key-Encryption/Data-Encryption-Standard",
             "12-Secret-Key-Encryption/Advanced-Encryption-Standard"

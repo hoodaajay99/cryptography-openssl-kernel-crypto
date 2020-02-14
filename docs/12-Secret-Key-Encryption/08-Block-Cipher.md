@@ -16,13 +16,22 @@ Block cipher modes of operation have been developed to eliminate the chance of e
 
 A block of bits called an **initialization vector (IV)** is also used by modes of operation (eg in CBC mode) to ensure ciphertexts remain distinct even when the same plaintext message is encrypted a number of times.
 
+
+## Block Cipher Design Principles
+
+- Block Size: Optimal Block Size should be chosen.
+- Key Size: Large the key size, better the encryption
+- Number of Rounds: Higher the number of rounds, higher the computation required and better the encryption 
+- Sub Keys Count: Higher the number of rounds, higher the Sub Keys used, and better the encryption.
+- Round functions: More Complex round function results in better encryption, but more computation may be required.
+- Plain Text in two equal halves
+
 ## Various modes of operation for block ciphers
 
 - CBC (cipher block chaining), 
 - CFB (cipher feedback), 
 - CTR (counter), and 
-- GCM (Galois/Counter Mode) 
-
+- GCM (Galois/Counter Mode)
 
 ## Various block cipher Algorithms
 
