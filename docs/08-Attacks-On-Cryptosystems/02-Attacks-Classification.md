@@ -73,27 +73,4 @@ All messages are still from the Sender and Receiver does not know that data has 
 
 ### Denial Of Service
 
-Unauthorized Third Party interrupts the services of the communication system by sending too many messages to the Server, either on behalf of genuine users or fake users.  
-
- of the algorithm are in the public domain, except the Keys.
-- Proprietary algorithms − The details of the algorithm are only known by the system designers and users.
-
-### Availability of Ciphertext
-
-We know that once the plaintext is encrypted into ciphertext, it is put on unsecure public channel for transmission and attacker can assume access to the Ciphertext.
-
-### Availability of Plaintext and Ciphertext
-
-Attacker can have access to plaintext and corresponding ciphertext.
-
-Ex: In a public-key cryptosystem, the encryption key is in open domain and is known to any potential attacker. Using this key, he can generate pairs of corresponding plaintext and ciphertext.## Attacker Knowledge of cryptosystems environment
-
-While considering possible attacks on the cryptosystem, it is necessary to know the cryptosystems environment by the attacker.
-
-In cryptography, the following three assumptions are made about the security environment and attacker’s capabilities.
-
-### Details of the Encryption Scheme
-
-- **Public Algorithm**s − All the details
-
-
+Unauthorized Third Party interrupts the services of the communication system by sending too many messages to the Server, either on behalf of genuine users or fake users.

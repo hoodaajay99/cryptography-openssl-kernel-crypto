@@ -1,10 +1,16 @@
 ---
 id: Primary-functions-of-cryptography
-title: Primary functions of cryptography
-sidebar_label: Primary functions of cryptography
+title: Security Services of cryptography
+sidebar_label: Security Services of cryptography
 ---
 
 The primary objective of using cryptography is to provide following fundamental information security services.
+
+## Access Control
+
+Access control is the selective restriction of access to a resource. The act of accessing may mean consuming, entering, or using the resource. 
+
+Permission to access a resource is called **authorization**.
 
 ## Privacy/confidentiality
 
