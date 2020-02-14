@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Data Encryption Standard · Tech Skillo</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="##"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Data Encryption Standard · Tech Skillo"/><meta property="og:type" content="website"/><meta property="og:url" content="https://crypto.techskillo.com/"/><meta property="og:description" content="##"/><meta property="og:image" content="https://crypto.techskillo.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://crypto.techskillo.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46809639-2"></script><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Data Encryption Standard · Tech Skillo</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Data Encryption Standard (DES)"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Data Encryption Standard · Tech Skillo"/><meta property="og:type" content="website"/><meta property="og:url" content="https://crypto.techskillo.com/"/><meta property="og:description" content="## Data Encryption Standard (DES)"/><meta property="og:image" content="https://crypto.techskillo.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://crypto.techskillo.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46809639-2"></script><script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments); }
               gtag('js', new Date());
@@ -59,5 +59,82 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/hoodaajay99/cryptography-openssl-kernel-crypto/blob/master/docs/12-Secret-Key-Encryption/12-Data-Encryption-Standard.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Data Encryption Standard</h1></header><article><div><span><h2></h2>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/14/2020 by Ajay Hooda</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/12-Secret-Key-Encryption/Block-Cipher-Modes"><span class="arrow-prev">← </span><span>Block Cipher Modes</span></a><a class="docs-next button" href="/docs/12-Secret-Key-Encryption/Advanced-Encryption-Standard"><span>Advanced Encryption Standard</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>TECH SKILLO</h5><a href="/">Courses</a><a href="/">Bundles</a><a href="/">Android App</a><a href="/">iOS App</a><a href="/">Feature Request</a><a href="/">Interships</a></div><div><h5>COMPANY</h5><a href="/">About Us</a><a href="/">Terms</a><a href="/">Privacy</a><a href="/">Pricing Policy</a><a href="/">SiteMap</a><a href="/">Contact Us</a></div><div><h5>COURSES</h5><a href="/">C Programming</a><a href="/">Linux Kernel</a><a href="/">Device Drivers</a><a href="/">Angular</a><a href="/">ionic Framework</a><a href="/">More Courses</a></div><div><h5>More Links</h5><a href="/">Careers</a><a href="/">Partners</a><a href="https://github.com/hoodaajay99">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a></div></section><section class="copyright">Copyright © 2020 TechSkillo.com</section></footer></div></body></html>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/hoodaajay99/cryptography-openssl-kernel-crypto/blob/master/docs/12-Secret-Key-Encryption/12-Data-Encryption-Standard.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Data Encryption Standard</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="data-encryption-standard-des"></a><a href="#data-encryption-standard-des" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Encryption Standard (DES)</h2>
+<p><img src="/docs/assets/des-encryption-decryption.png" alt="des-encryption-decryption.png"></p>
+<p>The Data Encryption Standard (DES) is a symmetric-key block cipher published by the National Institute of Standards and Technology (NIST).</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Property</th><th style="text-align:center">Value</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Structure</td><td style="text-align:center">Balanced Feistel Cipher</td></tr>
+<tr><td style="text-align:center">Rounds</td><td style="text-align:center">16</td></tr>
+<tr><td style="text-align:center">Block size</td><td style="text-align:center">64 Bits</td></tr>
+<tr><td style="text-align:center">Key length</td><td style="text-align:center">64-bits (56 Bits Key + 8 Parity Bits)</td></tr>
+<tr><td style="text-align:center">No of Sub Keys</td><td style="text-align:center">16 Sub Keys</td></tr>
+<tr><td style="text-align:center">Sub Keys Size</td><td style="text-align:center">48 Bit</td></tr>
+<tr><td style="text-align:center">Successors</td><td style="text-align:center">Triple DES, G-DES, DES-X, LOKI89, ICE</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="detailed-block-diagram"></a><a href="#detailed-block-diagram" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Detailed Block Diagram</h2>
+<p><img src="/docs/assets/des-algorithm-block-diagram-teckskillo.png" alt="des-algorithm-block-diagram-teckskillo.png"></p>
+<p>Following steps are implemented in DES Algorithm:</p>
+<ul>
+<li>Input of 64 Bit Plaintext</li>
+<li>Initial Permutation</li>
+<li>Round Function for each round</li>
+<li>Key Generator for each round</li>
+<li>Final Permutation</li>
+<li>Output of 64 Bit Ciphertext</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="initial-permutation"></a><a href="#initial-permutation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Initial Permutation</h3>
+<p>Initial permutation (IP) happens only once before the first round. Initial (P-Box) simply rearranges the bit positions of the input as per fixed lookup table as shown below.</p>
+<p><img src="/docs/assets/des-initial-permutation-table.png" alt="des-initial-permutation-table.png"></p>
+<h3><a class="anchor" aria-hidden="true" id="round-function"></a><a href="#round-function" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Round Function</h3>
+<p>After Initial Permutation, 64 bit input is divided into two halves, ie 32 bit Left half and 32 bit right Half.</p>
+<p>Further, the DES function applies a 48-bit key to the rightmost 32 bits to produce a 32-bit output.</p>
+<blockquote>
+<p>Round Function is also called as <strong>Feistel Function</strong></p>
+</blockquote>
+<p><img src="/docs/assets/des-round-function-techskillo.png" alt="des-round-function-techskillo.png"></p>
+<p>Round Function consists of following steps:</p>
+<ol>
+<li><p><strong>Expansion permutation (E)</strong></p>
+<p>The 32-bit half-block is expanded to 48 bits using the expansion permutation, denoted E in the diagram.</p></li>
+<li><p><strong>Key Mixing</strong></p>
+<p>48 bit output of Expansion permutation is XORed with the 48 bit subkey (derived from Key Generation Function for a specific round) to derive 48 bit output.</p></li>
+<li><p><strong>Substitution (S-Box)</strong></p>
+<p>After mixing in the subkey, the block is divided into eight 6-bit pieces before processing by the S-boxes, or substitution boxes.</p>
+<p>Each of the eight S-boxes replaces its six input bits with four output bits according to a non-linear transformation, provided in the form of a lookup table.</p>
+<p>The S-boxes carry out the real mixing (confusion) and are the heart of the encryption.</p></li>
+<li><p><strong>Straight Permutation</strong></p>
+<p>Finally, the 32 output from the S-boxes is rearranged according to a fixed permutation, the P-box (lookup table).</p>
+<p>Following lookup table is used:</p>
+<p><img src="/docs/assets/des-round-function-permutation-teckskillo.png" alt="des-round-function-permutation-teckskillo.png"></p></li>
+</ol>
+<blockquote>
+<p>The alternation of substitution from the S-boxes, and permutation of bits from the P-box and E-expansion provides so-called &quot;confusion and diffusion&quot; respectively</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="sub-key-generation-key-schedule"></a><a href="#sub-key-generation-key-schedule" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sub Key Generation (Key Schedule)</h3>
+<p><img src="/docs/assets/des-subkey-generation-function.png" alt="des-subkey-generation-function.png"></p>
+<p>Sub Key Generation or Key Schedule generates Sub Keys for each of the 16 rounds. Above figure illustrates the key schedule for encryption — the algorithm which generates the subkeys.</p>
+<p>Following Steps are involved:</p>
+<ol>
+<li><p><strong>Permuted Choice 1 (PC-1)</strong></p>
+<p>Permuted Choice 1 (PC-1) takes 64 bit key input and generates 56 bits of the key, by discarding eight bits.</p>
+<p>The 56 bits are then divided into two 28-bit halves.</p></li>
+<li><p><strong>Key Shift Operation</strong></p>
+<p>Each of the 28-bit halves are shifted by different number of bits basedon the round number.</p></li>
+<li><p><strong>Permuted Choice 2 (PC-2)</strong></p>
+<p>Further Permuted Choice 2 is applied on 28-bit halves to arrive at 24 bit keys.</p>
+<p>Two 24 bit keys are combined to form a 48-bit SubKey for a specific round.</p></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="cryptanalysis-on-des"></a><a href="#cryptanalysis-on-des" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cryptanalysis on DES</h2>
+<p>DES has been found to be vulnerable to following types of attacks, hence not considered very robust in todays context.</p>
+<ul>
+<li>Brute-force attack</li>
+<li>Differential cryptanalysis</li>
+<li>Linear cryptanalysis</li>
+<li>Improved Davies' attack</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2/14/2020 by Ajay Hooda</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/12-Secret-Key-Encryption/Block-Cipher-Modes"><span class="arrow-prev">← </span><span>Block Cipher Modes</span></a><a class="docs-next button" href="/docs/12-Secret-Key-Encryption/Advanced-Encryption-Standard"><span>Advanced Encryption Standard</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#data-encryption-standard-des">Data Encryption Standard (DES)</a></li><li><a href="#detailed-block-diagram">Detailed Block Diagram</a><ul class="toc-headings"><li><a href="#initial-permutation">Initial Permutation</a></li><li><a href="#round-function">Round Function</a></li><li><a href="#sub-key-generation-key-schedule">Sub Key Generation (Key Schedule)</a></li></ul></li><li><a href="#cryptanalysis-on-des">Cryptanalysis on DES</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>TECH SKILLO</h5><a href="/">Courses</a><a href="/">Bundles</a><a href="/">Android App</a><a href="/">iOS App</a><a href="/">Feature Request</a><a href="/">Interships</a></div><div><h5>COMPANY</h5><a href="/">About Us</a><a href="/">Terms</a><a href="/">Privacy</a><a href="/">Pricing Policy</a><a href="/">SiteMap</a><a href="/">Contact Us</a></div><div><h5>COURSES</h5><a href="/">C Programming</a><a href="/">Linux Kernel</a><a href="/">Device Drivers</a><a href="/">Angular</a><a href="/">ionic Framework</a><a href="/">More Courses</a></div><div><h5>More Links</h5><a href="/">Careers</a><a href="/">Partners</a><a href="https://github.com/hoodaajay99">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a></div></section><section class="copyright">Copyright © 2020 TechSkillo.com</section></footer></div></body></html>
