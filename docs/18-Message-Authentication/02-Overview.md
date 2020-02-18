@@ -150,3 +150,15 @@ Hash Functions consist of a Signing Function at the Sender and Verifying Functio
 `h (M) = hash-code-receiver, compare with hash-code-sender`
 
 The hash code acts as the Authenticator and protects a message's data integrity, by allowing verifiers to detect any changes to the message content.
+
+
+## Usage of Hash Functions
+
+
+### Message Encrypted - Confidentiality and Authentication
+
+![hash-func-message-enc-confi-auth-techskillo.png](hash-func-message-enc-confi-auth-techskillo.png)
+
+### Message Not Encrypted - Authentication
+
+![hash-func-message-not-enc-auth-techskillo.png](hash-func-message-not-enc-auth-techskillo.png)
