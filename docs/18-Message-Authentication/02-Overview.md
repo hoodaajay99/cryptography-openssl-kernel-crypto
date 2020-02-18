@@ -31,43 +31,46 @@ Example: Webpage received from a Website/Server.
 
 ## Authentication Methods
 
-### Message Encryption
+## Message Encryption
 
 Message Encryption is conversion of PlainText into CipherText using a Key. 
 
 Here, CipherText itself acts as an Authenticator.
 
-#### Symmetric Key Encryption
+### Symmetric Key Encryption - Confidentiality and Authentication
 
-![Symmetric_Encryption.png](assets/Symmetric_Encryption.png)
+![mac-symmetric-encryption-confidentiality-authentication.png](assets/mac-symmetric-encryption-confidentiality-authentication.png)
 
 Here, if the Receiver is able to successfully decrypt a message using shared secret key, then it knows its has been encrypted by the Sender.
 
-#### Asymmetric Key Encryption
+### Public Key Encryption - Confidentiality
 
-![Asymmetric-Encryption.png](assets/Asymmetric-Encryption.png)
+![Mac-Public-Key-Encryption-Confidentiality.png](assets/Mac-Public-Key-Encryption-Confidentiality.png)
 
-- Encrypt using Public Key of Receiver:
+Here, the Sender can use the Public Key of receiver to encrypt the message and Receiver can use Private Key of receiver to decrypt the message.
 
-  Here, the Sender can use the Public Key of receiver to encrypt the message and Receiver can use Private Key of receiver to decrypt the message.
+Doing So,
 
-  Doing So,
+- Confidentiality is achieved
+- Authentication is not achieved
 
-  - Confidentiality is achieved
-  - Authentication is not achieved
+### Public Key Encryption - Authentication and Signature
 
-- Encrypt using Private Key of Sender:
+![Mac-Public-Key-Enc-Auth-Sig.png](assets/Mac-Public-Key-Enc-Auth-Sig.png)
 
-  Here, the Sender can use the Private Key of Sender to encrypt the message and Receiver can use Public Key of Sender to decrypt the message.
+Here, the Sender can use the Private Key of Sender to encrypt the message and Receiver can use Public Key of Sender to decrypt the message.
 
-  Doing So,
+Doing So,
 
-  - Confidentiality is not achieved
-  - Authentication is achieved
+- Confidentiality is not achieved
+- Authentication is achieved
+- Signature is Achieved
 
-#### Dual Encryption
+### Public Key Encryption - Confidentiality, Authentication and Signature
 
-In Dual Encryption, the Sender can use the Private Key of Sender to encrypt the message, followed by one more encryption using the Public Key of Receiver. CipherText is then transmitted to the receiver.
+![Mac-Public-Key-Enc-Confi-Auth-Sig.png](assets/Mac-Public-Key-Enc-Confi-Auth-Sig.png)
+
+In order to achieve Confidentiality, Authentication and Signature, Dual Encryption is applied. In this mode, the Sender can use the Private Key of Sender to encrypt the message, followed by one more encryption using the Public Key of Receiver. CipherText is then transmitted to the receiver.
 
 At the Receiver, Receiver shall use the Private Key of Receiver to decrypt the Message, following by one more decryption using the Public Key of Sender to get plaintext.
 
@@ -75,9 +78,9 @@ Doing So,
 
 - Confidentiality is achieved
 - Authentication is achieved
+- Signature is Achieved
 
-
-### Message Authentication Code
+## Message Authentication Code
 
 Message authentication code (MAC) is a short piece of information used to authenticate a message.
 
@@ -98,7 +101,37 @@ The MAC code acts as the Authenticator and protects both a message's data integr
 
 MAC code is also called **message digest**.
 
-### Hash Functions
+
+Message Authentication Code can be used in following ways:
+
+### Message Authentication Only
+
+![mac-only.png](assets/mac-only.png)
+
+Doing So,
+
+- Authentication is achieved.
+- Confidentiality is not achieved
+
+### Message Authentication and Confidentiality - Authentication tied to plaintext
+
+![mac-Conf-auth-plaintext.png](assets/mac-Conf-auth-plaintext.png)
+
+Doing So,
+
+- Authentication is achieved
+- Confidentiality is achieved
+
+### Message Authentication and Confidentiality - Authentication tied to ciphertext
+
+![mac-Conf-auth-ciphertext.png](assets/mac-Conf-auth-ciphertext.png)
+
+Doing So,
+
+- Authentication is achieved
+- Confidentiality is achieved
+
+## Hash Functions
 
 Hash Function is a mathematical algorithm that maps data of arbitrary size (often called the "message") to a bit string of a fixed size (the "**hash value**", "**hash**", or "**message digest**").
 
